@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All Test Cases">
+    <test name="myTest">
+        <parameter name="elements" value="Notebook"> </parameter>
+        <parameter name="Search" value="Adobe Photoshop CS4"> </parameter>
+
+
+        <classes>
+            <class name="testCase.NopCommerce"> </class>
+        </classes>
+    </test>
+</suite>
