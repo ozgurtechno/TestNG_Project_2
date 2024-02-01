@@ -176,7 +176,7 @@ public class NopCommerce extends BaseDriver {
 
         Robot robot = new Robot();
 
-//        TODO This method is uncommented only for Mac users
+//        TODO This method is only for Mac users
         if (Platform.getCurrent().is(Platform.MAC)){
             Set<String> windowHandles = driver.getWindowHandles();
 
